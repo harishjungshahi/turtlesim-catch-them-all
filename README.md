@@ -1,6 +1,5 @@
 # turtlesim-catch-them-all
 Turtlesim-based ROS 2 package to spawn and catch turtles automatically.
-Sure! Here’s a clean, professional README template for your ROS 2 project **turtlesim-catch-them-all**. You can customize it further as needed:
 
 ````markdown
 # turtlesim-catch-them-all
