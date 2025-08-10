@@ -1,0 +1,31 @@
+[6.293s] Invoking command in '/home/junge/ros2_ws/src/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/junge/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/junge/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/junge/ros2_ws/build/my_py_pkg/build install --record /home/junge/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[7.085s] running egg_info
+[7.136s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[7.158s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[7.158s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[7.159s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[7.159s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[7.283s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[7.301s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[7.302s] running build
+[7.302s] running build_py
+[7.320s] copying my_py_pkg/number_counter.py -> /home/junge/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[7.325s] running install
+[7.340s] running install_lib
+[7.391s] copying /home/junge/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/junge/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[7.393s] byte-compiling /home/junge/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-312.pyc
+[7.395s] running install_data
+[7.400s] running install_egg_info
+[7.456s] removing '/home/junge/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[7.459s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/junge/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[7.468s] running install_scripts
+[7.883s] Installing add_two_ints_client script to /home/junge/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[7.908s] Installing add_two_ints_client_no_oop script to /home/junge/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[7.909s] Installing add_two_ints_server script to /home/junge/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[7.909s] Installing number_counter script to /home/junge/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[7.909s] Installing number_publisher script to /home/junge/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[7.910s] Installing py_node script to /home/junge/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[7.911s] Installing robot_news_station script to /home/junge/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[7.911s] Installing smartphone script to /home/junge/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[7.912s] writing list of installed files to '/home/junge/ros2_ws/build/my_py_pkg/install.log'
+[7.966s] Invoked command in '/home/junge/ros2_ws/src/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/junge/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/junge/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/junge/ros2_ws/build/my_py_pkg/build install --record /home/junge/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,247 @@
+[0.110s] Invoking command in '/home/junge/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/junge/install/my_py_pkg:/home/junge/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/junge/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[0.542s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.662s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.045s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.085s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.415s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.650s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.134s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.633s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.246s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.284s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.297s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.556s] -- Configuring done (5.1s)
+[5.916s] -- Generating done (0.3s)
+[5.955s] -- Build files have been written to: /home/junge/ros2_ws/build/my_robot_interfaces
+[6.398s] [  1%] Built target my_robot_interfaces__rosidl_generator_type_description
+[6.645s] [  1%] Built target ament_cmake_python_copy_my_robot_interfaces
+[6.724s] [  3%] Built target my_robot_interfaces__cpp
+[6.902s] [ 25%] Built target my_robot_interfaces__rosidl_generator_c
+[7.471s] [ 34%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[7.687s] [ 43%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[7.769s] [ 53%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[8.060s] [ 62%] Built target my_robot_interfaces__rosidl_typesupport_c
+[8.287s] [ 71%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[8.323s] [ 81%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[8.387s] running egg_info
+[8.457s] writing my_robot_interfaces.egg-info/PKG-INFO
+[8.458s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[8.458s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[8.477s] [ 81%] Built target my_robot_interfaces
+[8.664s] [ 82%] Built target my_robot_interfaces__py
+[8.742s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[8.770s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[9.005s] [ 82%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[9.117s] [ 90%] Built target my_robot_interfaces__rosidl_generator_py
+[9.694s] [ 93%] Built target my_robot_interfaces_s__rosidl_typesupport_fastrtps_c
+[9.703s] [ 96%] Built target my_robot_interfaces_s__rosidl_typesupport_c
+[9.708s] [100%] Built target my_robot_interfaces_s__rosidl_typesupport_introspection_c
+[9.819s] Invoked command in '/home/junge/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/junge/install/my_py_pkg:/home/junge/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/junge/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[9.884s] Invoking command in '/home/junge/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/junge/install/my_py_pkg:/home/junge/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/junge/ros2_ws/build/my_robot_interfaces
+[9.939s] -- Install configuration: ""
+[9.988s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[9.989s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.json
+[9.989s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStateArray.json
+[9.992s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.json
+[9.993s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.json
+[9.994s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[9.995s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[9.996s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.h
+[9.996s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.997s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/led_state_array.h
+[9.997s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[9.997s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.h
+[9.998s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__type_support.h
+[9.998s] -- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__type_support.c
+[10.007s] -- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c
+[10.009s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__description.c
+[10.010s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__struct.h
+[10.010s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.c
+[10.010s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.h
+[10.010s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__description.c
+[10.011s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.h
+[10.011s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__functions.c
+[10.011s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__functions.h
+[10.012s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[10.012s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/set_led.h
+[10.012s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/compute_rectangle_area.h
+[10.012s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[10.012s] -- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c
+[10.013s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__functions.c
+[10.013s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h
+[10.013s] -- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.c
+[10.023s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__description.c
+[10.023s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h
+[10.023s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h
+[10.023s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.h
+[10.023s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c
+[10.024s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__description.c
+[10.024s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__functions.h
+[10.024s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__struct.h
+[10.024s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[10.024s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[10.038s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[10.041s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[10.041s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[10.041s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.041s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[10.041s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__rosidl_typesupport_fastrtps_c.h
+[10.042s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h
+[10.042s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[10.042s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[10.042s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h
+[10.042s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_c.h
+[10.048s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[10.048s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[10.049s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[10.049s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.049s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[10.049s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+[10.049s] -- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__type_support.c
+[10.056s] -- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c
+[10.057s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__rosidl_typesupport_introspection_c.h
+[10.057s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[10.058s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[10.058s] -- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c
+[10.059s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h
+[10.059s] -- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.c
+[10.061s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_c.h
+[10.118s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[10.123s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[10.123s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[10.124s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[10.124s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/led_state_array.hpp
+[10.124s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.hpp
+[10.124s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[10.126s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__builder.hpp
+[10.126s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__traits.hpp
+[10.127s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__struct.hpp
+[10.127s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.hpp
+[10.127s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__traits.hpp
+[10.128s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__type_support.hpp
+[10.128s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.hpp
+[10.128s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__builder.hpp
+[10.129s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.129s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[10.129s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/set_led.hpp
+[10.130s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/compute_rectangle_area.hpp
+[10.130s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[10.130s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__builder.hpp
+[10.130s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__traits.hpp
+[10.130s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp
+[10.131s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp
+[10.131s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.hpp
+[10.131s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__traits.hpp
+[10.134s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__struct.hpp
+[10.134s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.hpp
+[10.134s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[10.135s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[10.135s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.135s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[10.136s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__rosidl_typesupport_fastrtps_cpp.hpp
+[10.136s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[10.136s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/dds_fastrtps
+[10.136s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[10.137s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[10.140s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp
+[10.140s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/dds_fastrtps
+[10.140s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp
+[10.166s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[10.168s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[10.168s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[10.169s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[10.169s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp
+[10.170s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__type_support.cpp
+[10.170s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__rosidl_typesupport_introspection_cpp.hpp
+[10.170s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
+[10.170s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[10.171s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[10.171s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.cpp
+[10.171s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp
+[10.171s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp
+[10.171s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp
+[10.178s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[10.198s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[10.200s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[10.200s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[10.200s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info
+[10.202s] -- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[10.203s] -- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[10.203s] -- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[10.204s] -- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[10.206s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces
+[10.207s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg
+[10.208s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_led_state_array.py
+[10.208s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_led_state_array_s.c
+[10.208s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status_s.c
+[10.208s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/__init__.py
+[10.209s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status.py
+[10.209s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so
+[10.209s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[10.210s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[10.210s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so
+[10.210s] -- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/__init__.py
+[10.211s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[10.211s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.211s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv
+[10.212s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_compute_rectangle_area.py
+[10.214s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_set_led_s.c
+[10.215s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_set_led.py
+[10.215s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_compute_rectangle_area_s.c
+[10.215s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/__init__.py
+[10.402s] Listing '/home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces'...
+[10.402s] Compiling '/home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/__init__.py'...
+[10.402s] Listing '/home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg'...
+[10.402s] Listing '/home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv'...
+[10.417s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[10.422s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so
+[10.428s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so
+[10.443s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so
+[10.445s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl
+[10.445s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStateArray.idl
+[10.445s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.idl
+[10.446s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.idl
+[10.446s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg
+[10.446s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStateArray.msg
+[10.446s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.srv
+[10.446s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.srv
+[10.446s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[10.455s] -- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[10.456s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[10.457s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[10.457s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[10.457s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[10.457s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[10.457s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[10.458s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[10.458s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[10.459s] -- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[10.459s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[10.471s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake
+[10.471s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[10.472s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[10.473s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.474s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[10.474s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.475s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[10.475s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[10.476s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake
+[10.477s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.478s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.479s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[10.479s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.480s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[10.480s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[10.501s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake
+[10.501s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[10.501s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[10.501s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.502s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.502s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[10.502s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[10.502s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.502s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.503s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[10.503s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[10.503s] -- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[10.511s] Invoked command in '/home/junge/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/junge/install/my_py_pkg:/home/junge/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/junge/ros2_ws/build/my_robot_interfaces

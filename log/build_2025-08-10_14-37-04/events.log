@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.000317] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000402] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.000452] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000500] (turtlesim_catch_them_all) JobQueued: {'identifier': 'turtlesim_catch_them_all', 'dependencies': OrderedDict()}
+[0.000548] (turtlesim_catch_them_all) JobStarted: {'identifier': 'turtlesim_catch_them_all'}
+[0.099172] (-) TimerEvent: {}
+[0.200645] (-) TimerEvent: {}
+[0.301023] (-) TimerEvent: {}
+[0.402596] (-) TimerEvent: {}
+[0.503604] (-) TimerEvent: {}
+[0.604769] (-) TimerEvent: {}
+[0.705608] (-) TimerEvent: {}
+[0.806230] (-) TimerEvent: {}
+[0.907311] (-) TimerEvent: {}
+[1.009714] (-) TimerEvent: {}
+[1.110708] (-) TimerEvent: {}
+[1.212055] (-) TimerEvent: {}
+[1.313345] (-) TimerEvent: {}
+[1.414613] (-) TimerEvent: {}
+[1.515389] (-) TimerEvent: {}
+[1.615839] (-) TimerEvent: {}
+[1.716497] (-) TimerEvent: {}
+[1.817043] (-) TimerEvent: {}
+[1.917581] (-) TimerEvent: {}
+[2.018110] (-) TimerEvent: {}
+[2.118606] (-) TimerEvent: {}
+[2.219208] (-) TimerEvent: {}
+[2.319691] (-) TimerEvent: {}
+[2.420381] (-) TimerEvent: {}
+[2.522124] (-) TimerEvent: {}
+[2.623239] (-) TimerEvent: {}
+[2.723653] (-) TimerEvent: {}
+[2.824084] (-) TimerEvent: {}
+[2.924565] (-) TimerEvent: {}
+[3.025563] (-) TimerEvent: {}
+[3.127066] (-) TimerEvent: {}
+[3.227709] (-) TimerEvent: {}
+[3.328182] (-) TimerEvent: {}
+[3.428762] (-) TimerEvent: {}
+[3.529331] (-) TimerEvent: {}
+[3.630057] (-) TimerEvent: {}
+[3.731444] (-) TimerEvent: {}
+[3.833024] (-) TimerEvent: {}
+[3.934279] (-) TimerEvent: {}
+[4.035136] (-) TimerEvent: {}
+[4.136231] (-) TimerEvent: {}
+[4.236877] (-) TimerEvent: {}
+[4.337191] (-) TimerEvent: {}
+[4.437722] (-) TimerEvent: {}
+[4.538190] (-) TimerEvent: {}
+[4.638811] (-) TimerEvent: {}
+[4.739309] (-) TimerEvent: {}
+[4.840685] (-) TimerEvent: {}
+[4.941670] (-) TimerEvent: {}
+[5.043159] (-) TimerEvent: {}
+[5.144313] (-) TimerEvent: {}
+[5.245394] (-) TimerEvent: {}
+[5.346855] (-) TimerEvent: {}
+[5.448132] (-) TimerEvent: {}
+[5.549125] (-) TimerEvent: {}
+[5.650140] (-) TimerEvent: {}
+[5.750852] (-) TimerEvent: {}
+[5.853048] (-) TimerEvent: {}
+[5.954059] (-) TimerEvent: {}
+[6.054952] (-) TimerEvent: {}
+[6.155490] (-) TimerEvent: {}
+[6.256208] (-) TimerEvent: {}
+[6.357717] (-) TimerEvent: {}
+[6.458153] (-) TimerEvent: {}
+[6.558874] (-) TimerEvent: {}
+[6.659964] (-) TimerEvent: {}
+[6.760654] (-) TimerEvent: {}
+[6.862253] (-) TimerEvent: {}
+[6.965083] (-) TimerEvent: {}
+[7.066136] (-) TimerEvent: {}
+[7.167526] (-) TimerEvent: {}
+[7.268051] (-) TimerEvent: {}
+[7.369367] (-) TimerEvent: {}
+[7.469942] (-) TimerEvent: {}
+[7.570610] (-) TimerEvent: {}
+[7.661635] (turtlesim_catch_them_all) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/junge/ros2_ws/build/turtlesim_catch_them_all/build', '--no-deps', 'symlink_data'], 'cwd': '/home/junge/ros2_ws/build/turtlesim_catch_them_all', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3614-1-JUNGE_TIME11948824', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'junge', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/junge/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/junge', 'OLDPWD': '/home/junge/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3353', 'SYSTEMD_EXEC_PID': '3614', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5354', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/junge/ros2_ws/install:/home/junge/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'junge', 'JOURNAL_STREAM': '9:20578', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'junge', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/JUNGE:@/tmp/.ICE-unix/3570,unix/JUNGE:/tmp/.ICE-unix/3570', 'INVOCATION_ID': '9cdc9a2be12d4ac783e05735c9adfddd', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C6CSA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/junge/ros2_ws/install/my_robot_bringup:/home/junge/ros2_ws/install/my_py_pkg:/home/junge/ros2_ws/install/my_robot_interfaces:/home/junge/install/my_robot_bringup:/home/junge/install/my_py_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:558fd7be-cb8c-4911-b3c4-c2c813934253', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/junge/ros2_ws/build/turtlesim_catch_them_all', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/junge/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/junge/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/junge/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/junge/build/my_py_pkg:/home/junge/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/junge/ros2_ws/install/my_robot_bringup:/home/junge/ros2_ws/install/my_robot_interfaces:/home/junge/install/my_robot_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[7.672081] (-) TimerEvent: {}
+[7.773412] (-) TimerEvent: {}
+[7.875156] (-) TimerEvent: {}
+[7.978098] (-) TimerEvent: {}
+[8.081546] (-) TimerEvent: {}
+[8.183239] (-) TimerEvent: {}
+[8.284986] (-) TimerEvent: {}
+[8.387763] (-) TimerEvent: {}
+[8.490299] (-) TimerEvent: {}
+[8.593441] (-) TimerEvent: {}
+[8.694315] (-) TimerEvent: {}
+[8.732139] (turtlesim_catch_them_all) StdoutLine: {'line': b'running develop\n'}
+[8.795245] (-) TimerEvent: {}
+[8.897963] (-) TimerEvent: {}
+[9.000387] (-) TimerEvent: {}
+[9.102091] (-) TimerEvent: {}
+[9.203665] (-) TimerEvent: {}
+[9.305343] (-) TimerEvent: {}
+[9.406914] (-) TimerEvent: {}
+[9.443456] (turtlesim_catch_them_all) StdoutLine: {'line': b'running egg_info\n'}
+[9.443719] (turtlesim_catch_them_all) StdoutLine: {'line': b'creating turtlesim_catch_them_all.egg-info\n'}
+[9.497262] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing turtlesim_catch_them_all.egg-info/PKG-INFO\n'}
+[9.497869] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing dependency_links to turtlesim_catch_them_all.egg-info/dependency_links.txt\n'}
+[9.498515] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing entry points to turtlesim_catch_them_all.egg-info/entry_points.txt\n'}
+[9.498837] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing requirements to turtlesim_catch_them_all.egg-info/requires.txt\n'}
+[9.499198] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing top-level names to turtlesim_catch_them_all.egg-info/top_level.txt\n'}
+[9.499561] (turtlesim_catch_them_all) StdoutLine: {'line': b"writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'\n"}
+[9.507170] (-) TimerEvent: {}
+[9.608578] (-) TimerEvent: {}
+[9.619193] (turtlesim_catch_them_all) StdoutLine: {'line': b"reading manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'\n"}
+[9.621217] (turtlesim_catch_them_all) StdoutLine: {'line': b"writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'\n"}
+[9.678582] (turtlesim_catch_them_all) StdoutLine: {'line': b'running build_ext\n'}
+[9.679038] (turtlesim_catch_them_all) StdoutLine: {'line': b'Creating /home/junge/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages/turtlesim-catch-them-all.egg-link (link to .)\n'}
+[9.681392] (turtlesim_catch_them_all) StdoutLine: {'line': b'Installing controller script to /home/junge/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all\n'}
+[9.681993] (turtlesim_catch_them_all) StdoutLine: {'line': b'\n'}
+[9.682245] (turtlesim_catch_them_all) StdoutLine: {'line': b'Installed /home/junge/ros2_ws/build/turtlesim_catch_them_all\n'}
+[9.682382] (turtlesim_catch_them_all) StdoutLine: {'line': b'running symlink_data\n'}
+[9.682655] (turtlesim_catch_them_all) StdoutLine: {'line': b'creating /home/junge/ros2_ws/install/turtlesim_catch_them_all/share/ament_index\n'}
+[9.682782] (turtlesim_catch_them_all) StdoutLine: {'line': b'creating /home/junge/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index\n'}
+[9.683081] (turtlesim_catch_them_all) StdoutLine: {'line': b'creating /home/junge/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/packages\n'}
+[9.683540] (turtlesim_catch_them_all) StdoutLine: {'line': b'symbolically linking /home/junge/ros2_ws/build/turtlesim_catch_them_all/resource/turtlesim_catch_them_all -> /home/junge/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/packages\n'}
+[9.683690] (turtlesim_catch_them_all) StdoutLine: {'line': b'symbolically linking /home/junge/ros2_ws/build/turtlesim_catch_them_all/package.xml -> /home/junge/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all\n'}
+[9.708771] (-) TimerEvent: {}
+[9.752092] (turtlesim_catch_them_all) CommandEnded: {'returncode': 0}
+[9.809601] (-) TimerEvent: {}
+[9.905741] (turtlesim_catch_them_all) JobEnded: {'identifier': 'turtlesim_catch_them_all', 'rc': 0}
+[9.907296] (-) EventReactorShutdown: {}

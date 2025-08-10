@@ -1,0 +1,4 @@
+/my_name_publisher:
+  ros_parameters:
+    number: 6
+    timber_period: 1.5 

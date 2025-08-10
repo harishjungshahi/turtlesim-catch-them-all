@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.001108] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.001253] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.099769] (-) TimerEvent: {}
+[0.200802] (-) TimerEvent: {}
+[0.302678] (-) TimerEvent: {}
+[0.403297] (-) TimerEvent: {}
+[0.504818] (-) TimerEvent: {}
+[0.605325] (-) TimerEvent: {}
+[0.705957] (-) TimerEvent: {}
+[0.807059] (-) TimerEvent: {}
+[0.909592] (-) TimerEvent: {}
+[1.010003] (-) TimerEvent: {}
+[1.112790] (-) TimerEvent: {}
+[1.216355] (-) TimerEvent: {}
+[1.321302] (-) TimerEvent: {}
+[1.422768] (-) TimerEvent: {}
+[1.526607] (-) TimerEvent: {}
+[1.628076] (-) TimerEvent: {}
+[1.730581] (-) TimerEvent: {}
+[1.831345] (-) TimerEvent: {}
+[1.932056] (-) TimerEvent: {}
+[2.034588] (-) TimerEvent: {}
+[2.135584] (-) TimerEvent: {}
+[2.236324] (-) TimerEvent: {}
+[2.337259] (-) TimerEvent: {}
+[2.438381] (-) TimerEvent: {}
+[2.538796] (-) TimerEvent: {}
+[2.639932] (-) TimerEvent: {}
+[2.740988] (-) TimerEvent: {}
+[2.841952] (-) TimerEvent: {}
+[2.942612] (-) TimerEvent: {}
+[3.044173] (-) TimerEvent: {}
+[3.144618] (-) TimerEvent: {}
+[3.246773] (-) TimerEvent: {}
+[3.347443] (-) TimerEvent: {}
+[3.449919] (-) TimerEvent: {}
+[3.550345] (-) TimerEvent: {}
+[3.650697] (-) TimerEvent: {}
+[3.751515] (-) TimerEvent: {}
+[3.852785] (-) TimerEvent: {}
+[3.954813] (-) TimerEvent: {}
+[4.055823] (-) TimerEvent: {}
+[4.156288] (-) TimerEvent: {}
+[4.257341] (-) TimerEvent: {}
+[4.360024] (-) TimerEvent: {}
+[4.461246] (-) TimerEvent: {}
+[4.562439] (-) TimerEvent: {}
+[4.663433] (-) TimerEvent: {}
+[4.764721] (-) TimerEvent: {}
+[4.865184] (-) TimerEvent: {}
+[4.967201] (-) TimerEvent: {}
+[5.069873] (-) TimerEvent: {}
+[5.173987] (-) TimerEvent: {}
+[5.275028] (-) TimerEvent: {}
+[5.375350] (-) TimerEvent: {}
+[5.476062] (-) TimerEvent: {}
+[5.578460] (-) TimerEvent: {}
+[5.679211] (-) TimerEvent: {}
+[5.781709] (-) TimerEvent: {}
+[5.883136] (-) TimerEvent: {}
+[5.983408] (-) TimerEvent: {}
+[6.089990] (-) TimerEvent: {}
+[6.194557] (-) TimerEvent: {}
+[6.293244] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/junge/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/junge/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/junge/ros2_ws/src/my_py_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2285-0-JUNGE_TIME154756', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'junge', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/junge', 'OLDPWD': '/home/junge/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2017', 'SYSTEMD_EXEC_PID': '2285', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3094', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/junge/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'junge', 'JOURNAL_STREAM': '9:16563', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'junge', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/JUNGE:@/tmp/.ICE-unix/2242,unix/JUNGE:/tmp/.ICE-unix/2242', 'INVOCATION_ID': '2dbff22890f84958a7aa06e0637c5222', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YOSM62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/junge/ros2_ws/install/my_py_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:2700068e-fcd6-4abc-8f9b-d5c952588443', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/junge/ros2_ws/build/my_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/junge/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/junge/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/junge/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[6.294781] (-) TimerEvent: {}
+[6.396833] (-) TimerEvent: {}
+[6.503238] (-) TimerEvent: {}
+[6.603722] (-) TimerEvent: {}
+[6.705581] (-) TimerEvent: {}
+[6.806675] (-) TimerEvent: {}
+[6.912040] (-) TimerEvent: {}
+[7.012603] (-) TimerEvent: {}
+[7.086386] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[7.116156] (-) TimerEvent: {}
+[7.137337] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[7.159471] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[7.159721] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[7.159880] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[7.160149] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[7.216682] (-) TimerEvent: {}
+[7.283915] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[7.302160] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[7.302765] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[7.302924] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[7.317456] (-) TimerEvent: {}
+[7.320966] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/number_counter.py -> /home/junge/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[7.325689] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[7.341473] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[7.391879] (my_py_pkg) StdoutLine: {'line': b'copying /home/junge/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/junge/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[7.394319] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/junge/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-312.pyc\n'}
+[7.396128] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[7.401457] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.419783] (-) TimerEvent: {}
+[7.457165] (my_py_pkg) StdoutLine: {'line': b"removing '/home/junge/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[7.460165] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/junge/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info\n'}
+[7.469396] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[7.519857] (-) TimerEvent: {}
+[7.623913] (-) TimerEvent: {}
+[7.728909] (-) TimerEvent: {}
+[7.832114] (-) TimerEvent: {}
+[7.883908] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client script to /home/junge/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[7.909429] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_no_oop script to /home/junge/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[7.909956] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/junge/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[7.910248] (my_py_pkg) StdoutLine: {'line': b'Installing number_counter script to /home/junge/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[7.910604] (my_py_pkg) StdoutLine: {'line': b'Installing number_publisher script to /home/junge/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[7.910925] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/junge/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[7.912010] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/junge/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[7.912313] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/junge/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[7.912911] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/junge/ros2_ws/build/my_py_pkg/install.log'\n"}
+[7.936566] (-) TimerEvent: {}
+[7.966298] (my_py_pkg) CommandEnded: {'returncode': 0}
+[8.037575] (-) TimerEvent: {}
+[8.082166] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[8.084139] (-) EventReactorShutdown: {}

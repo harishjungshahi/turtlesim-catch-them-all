@@ -1,0 +1,41 @@
+[0.271s] Invoking command in '/home/junge/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/junge/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/junge/ros2_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/junge/ros2_ws/install/my_robot_bringup
+[3.279s] -- The C compiler identification is GNU 13.3.0
+[5.509s] -- The CXX compiler identification is GNU 13.3.0
+[5.779s] -- Detecting C compiler ABI info
+[6.547s] -- Detecting C compiler ABI info - done
+[6.580s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.606s] -- Detecting C compile features
+[6.627s] -- Detecting C compile features - done
+[6.735s] -- Detecting CXX compiler ABI info
+[7.461s] -- Detecting CXX compiler ABI info - done
+[7.501s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.503s] -- Detecting CXX compile features
+[7.506s] -- Detecting CXX compile features - done
+[7.663s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[8.408s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[9.423s] -- Configuring done (9.0s)
+[9.437s] -- Generating done (0.0s)
+[9.443s] -- Build files have been written to: /home/junge/ros2_ws/build/my_robot_bringup
+[9.475s] Invoked command in '/home/junge/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/junge/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/junge/ros2_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/junge/ros2_ws/install/my_robot_bringup
+[9.480s] Invoking command in '/home/junge/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/junge/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/junge/ros2_ws/build/my_robot_bringup -- -j4 -l4
+[9.790s] Invoked command in '/home/junge/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/junge/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/junge/ros2_ws/build/my_robot_bringup -- -j4 -l4
+[9.857s] Invoking command in '/home/junge/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/junge/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/junge/ros2_ws/build/my_robot_bringup
+[9.909s] -- Install configuration: ""
+[9.909s] -- Installing: /home/junge/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch
+[9.910s] -- Installing: /home/junge/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch/number_app.launch.xml
+[9.911s] -- Installing: /home/junge/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[9.912s] -- Installing: /home/junge/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[9.912s] -- Installing: /home/junge/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[9.913s] -- Installing: /home/junge/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[9.914s] -- Installing: /home/junge/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[9.914s] -- Installing: /home/junge/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[9.915s] -- Installing: /home/junge/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[9.915s] -- Installing: /home/junge/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[9.916s] -- Installing: /home/junge/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[9.917s] -- Installing: /home/junge/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[9.917s] -- Installing: /home/junge/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[9.918s] -- Installing: /home/junge/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[9.919s] -- Installing: /home/junge/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[9.919s] -- Installing: /home/junge/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[9.920s] -- Installing: /home/junge/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[9.933s] Invoked command in '/home/junge/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/junge/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/junge/ros2_ws/build/my_robot_bringup

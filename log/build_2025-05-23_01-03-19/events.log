@@ -1,0 +1,760 @@
+[0.000000] (-) TimerEvent: {}
+[0.000304] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000406] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.000461] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.035818] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.036302] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'build'}
+[0.037505] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/junge/ros2_ws/build/my_robot_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/junge/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2287-1-JUNGE_TIME27831098', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'junge', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/junge/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/junge', 'OLDPWD': '/home/junge', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2016', 'SYSTEMD_EXEC_PID': '2287', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6543', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/junge/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'junge', 'JOURNAL_STREAM': '9:18477', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'junge', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/JUNGE:@/tmp/.ICE-unix/2244,unix/JUNGE:/tmp/.ICE-unix/2244', 'INVOCATION_ID': 'e327e69a319d4c91bce24d3ac7e5c111', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.76KP62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/junge/ros2_ws/install/my_py_pkg:/home/junge/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:cea40441-8da6-4163-8a16-d983feb296d5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/junge/ros2_ws/build/my_robot_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/junge/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/junge/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/junge/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.097927] (-) TimerEvent: {}
+[0.189640] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199922] (-) TimerEvent: {}
+[0.301312] (-) TimerEvent: {}
+[0.404786] (-) TimerEvent: {}
+[0.506899] (-) TimerEvent: {}
+[0.581234] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.589334] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.608409] (-) TimerEvent: {}
+[0.702381] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.710127] (-) TimerEvent: {}
+[0.803059] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.810322] (-) TimerEvent: {}
+[0.914788] (-) TimerEvent: {}
+[1.016604] (-) TimerEvent: {}
+[1.127310] (-) TimerEvent: {}
+[1.230375] (-) TimerEvent: {}
+[1.331789] (-) TimerEvent: {}
+[1.434357] (-) TimerEvent: {}
+[1.535756] (-) TimerEvent: {}
+[1.637551] (-) TimerEvent: {}
+[1.738856] (-) TimerEvent: {}
+[1.841142] (-) TimerEvent: {}
+[1.891400] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.942531] (-) TimerEvent: {}
+[2.045715] (-) TimerEvent: {}
+[2.147240] (-) TimerEvent: {}
+[2.251630] (-) TimerEvent: {}
+[2.304690] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.351870] (-) TimerEvent: {}
+[2.452458] (-) TimerEvent: {}
+[2.554018] (-) TimerEvent: {}
+[2.657331] (-) TimerEvent: {}
+[2.760292] (-) TimerEvent: {}
+[2.862338] (-) TimerEvent: {}
+[2.864925] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.876449] (my_robot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.963877] (-) TimerEvent: {}
+[3.066001] (-) TimerEvent: {}
+[3.167718] (-) TimerEvent: {}
+[3.269326] (-) TimerEvent: {}
+[3.370141] (-) TimerEvent: {}
+[3.470746] (-) TimerEvent: {}
+[3.571286] (-) TimerEvent: {}
+[3.674360] (-) TimerEvent: {}
+[3.776815] (-) TimerEvent: {}
+[3.877703] (-) TimerEvent: {}
+[3.888954] (my_robot_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[3.958917] (my_robot_interfaces) StdoutLine: {'line': b'-- Configuring done (3.8s)\n'}
+[3.981864] (-) TimerEvent: {}
+[4.082444] (-) TimerEvent: {}
+[4.110955] (my_robot_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[4.149991] (my_robot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/junge/ros2_ws/build/my_robot_interfaces\n'}
+[4.182768] (-) TimerEvent: {}
+[4.286780] (-) TimerEvent: {}
+[4.391723] (-) TimerEvent: {}
+[4.493852] (-) TimerEvent: {}
+[4.499195] (my_robot_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.594779] (-) TimerEvent: {}
+[4.596076] (my_robot_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_my_robot_interfaces\n'}
+[4.695232] (-) TimerEvent: {}
+[4.796726] (-) TimerEvent: {}
+[4.897715] (-) TimerEvent: {}
+[4.998486] (-) TimerEvent: {}
+[5.099364] (-) TimerEvent: {}
+[5.199834] (-) TimerEvent: {}
+[5.301843] (-) TimerEvent: {}
+[5.402325] (-) TimerEvent: {}
+[5.477343] (my_robot_interfaces) StdoutLine: {'line': b'[  1%] Built target my_robot_interfaces__rosidl_generator_type_description\n'}
+[5.502562] (-) TimerEvent: {}
+[5.509445] (my_robot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.591674] (my_robot_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.600473] (my_robot_interfaces) StdoutLine: {'line': b'writing my_robot_interfaces.egg-info/PKG-INFO\n'}
+[5.601461] (my_robot_interfaces) StdoutLine: {'line': b'writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt\n'}
+[5.602589] (my_robot_interfaces) StdoutLine: {'line': b'writing top-level names to my_robot_interfaces.egg-info/top_level.txt\n'}
+[5.603100] (-) TimerEvent: {}
+[5.703696] (-) TimerEvent: {}
+[5.729880] (my_robot_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.804057] (-) TimerEvent: {}
+[5.825513] (my_robot_interfaces) StdoutLine: {'line': b"reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[5.826689] (my_robot_interfaces) StdoutLine: {'line': b"writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[5.904741] (-) TimerEvent: {}
+[5.958461] (my_robot_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_my_robot_interfaces_egg\n'}
+[6.006270] (-) TimerEvent: {}
+[6.107287] (-) TimerEvent: {}
+[6.208306] (-) TimerEvent: {}
+[6.309756] (-) TimerEvent: {}
+[6.410278] (-) TimerEvent: {}
+[6.511794] (-) TimerEvent: {}
+[6.612258] (-) TimerEvent: {}
+[6.714095] (-) TimerEvent: {}
+[6.817597] (-) TimerEvent: {}
+[6.919081] (-) TimerEvent: {}
+[7.022070] (-) TimerEvent: {}
+[7.122705] (-) TimerEvent: {}
+[7.223722] (-) TimerEvent: {}
+[7.330046] (-) TimerEvent: {}
+[7.435304] (-) TimerEvent: {}
+[7.537115] (-) TimerEvent: {}
+[7.645033] (-) TimerEvent: {}
+[7.746565] (-) TimerEvent: {}
+[7.847271] (-) TimerEvent: {}
+[7.948140] (-) TimerEvent: {}
+[8.049013] (-) TimerEvent: {}
+[8.158929] (-) TimerEvent: {}
+[8.259729] (-) TimerEvent: {}
+[8.360169] (-) TimerEvent: {}
+[8.460771] (-) TimerEvent: {}
+[8.561639] (-) TimerEvent: {}
+[8.662292] (-) TimerEvent: {}
+[8.763689] (-) TimerEvent: {}
+[8.868218] (-) TimerEvent: {}
+[8.968737] (-) TimerEvent: {}
+[9.069136] (-) TimerEvent: {}
+[9.169798] (-) TimerEvent: {}
+[9.270549] (-) TimerEvent: {}
+[9.371071] (-) TimerEvent: {}
+[9.473140] (-) TimerEvent: {}
+[9.583546] (-) TimerEvent: {}
+[9.696954] (-) TimerEvent: {}
+[9.797573] (-) TimerEvent: {}
+[9.899292] (-) TimerEvent: {}
+[10.002220] (-) TimerEvent: {}
+[10.043064] (my_robot_interfaces) StdoutLine: {'line': b'[  4%] Built target my_robot_interfaces__cpp\n'}
+[10.105373] (-) TimerEvent: {}
+[10.205897] (-) TimerEvent: {}
+[10.312315] (-) TimerEvent: {}
+[10.412710] (-) TimerEvent: {}
+[10.513869] (-) TimerEvent: {}
+[10.619134] (-) TimerEvent: {}
+[10.724536] (-) TimerEvent: {}
+[10.825414] (-) TimerEvent: {}
+[10.927009] (-) TimerEvent: {}
+[10.977829] (my_robot_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_state_array__description.c.o\x1b[0m\n'}
+[11.027496] (-) TimerEvent: {}
+[11.061836] (my_robot_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.c.o\x1b[0m\n'}
+[11.068772] (my_robot_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__description.c.o\x1b[0m\n'}
+[11.097735] (my_robot_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o\x1b[0m\n'}
+[11.127679] (-) TimerEvent: {}
+[11.228348] (-) TimerEvent: {}
+[11.337695] (-) TimerEvent: {}
+[11.438519] (-) TimerEvent: {}
+[11.540025] (-) TimerEvent: {}
+[11.646746] (-) TimerEvent: {}
+[11.749400] (-) TimerEvent: {}
+[11.775603] (my_robot_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_state_array__type_support.c.o\x1b[0m\n'}
+[11.816234] (my_robot_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_state_array__functions.c.o\x1b[0m\n'}
+[11.850762] (-) TimerEvent: {}
+[11.906575] (my_robot_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__description.c.o\x1b[0m\n'}
+[11.953507] (-) TimerEvent: {}
+[12.032974] (my_robot_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.o\x1b[0m\n'}
+[12.056566] (-) TimerEvent: {}
+[12.157567] (-) TimerEvent: {}
+[12.258129] (-) TimerEvent: {}
+[12.358949] (-) TimerEvent: {}
+[12.436065] (my_robot_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.o\x1b[0m\n'}
+[12.461444] (-) TimerEvent: {}
+[12.562030] (-) TimerEvent: {}
+[12.662517] (-) TimerEvent: {}
+[12.686514] (my_robot_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__description.c.o\x1b[0m\n'}
+[12.742343] (my_robot_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.c.o\x1b[0m\n'}
+[12.763405] (-) TimerEvent: {}
+[12.869295] (-) TimerEvent: {}
+[12.978411] (-) TimerEvent: {}
+[12.998858] (my_robot_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o\x1b[0m\n'}
+[13.079506] (-) TimerEvent: {}
+[13.179901] (-) TimerEvent: {}
+[13.283296] (-) TimerEvent: {}
+[13.389396] (-) TimerEvent: {}
+[13.420065] (my_robot_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[13.489544] (-) TimerEvent: {}
+[13.590559] (-) TimerEvent: {}
+[13.668509] (my_robot_interfaces) StdoutLine: {'line': b'[ 25%] Built target my_robot_interfaces__rosidl_generator_c\n'}
+[13.691595] (-) TimerEvent: {}
+[13.793101] (-) TimerEvent: {}
+[13.896778] (-) TimerEvent: {}
+[13.997695] (-) TimerEvent: {}
+[14.026665] (my_robot_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[14.098137] (-) TimerEvent: {}
+[14.098701] (my_robot_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.110455] (my_robot_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.198368] (-) TimerEvent: {}
+[14.243619] (my_robot_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.298671] (-) TimerEvent: {}
+[14.401909] (-) TimerEvent: {}
+[14.506578] (-) TimerEvent: {}
+[14.607119] (-) TimerEvent: {}
+[14.708188] (-) TimerEvent: {}
+[14.808673] (-) TimerEvent: {}
+[14.909279] (-) TimerEvent: {}
+[15.009679] (-) TimerEvent: {}
+[15.110205] (-) TimerEvent: {}
+[15.210920] (-) TimerEvent: {}
+[15.313084] (-) TimerEvent: {}
+[15.413592] (-) TimerEvent: {}
+[15.516696] (-) TimerEvent: {}
+[15.619939] (-) TimerEvent: {}
+[15.720324] (-) TimerEvent: {}
+[15.822654] (-) TimerEvent: {}
+[15.926647] (-) TimerEvent: {}
+[16.028892] (-) TimerEvent: {}
+[16.129302] (-) TimerEvent: {}
+[16.232144] (-) TimerEvent: {}
+[16.338592] (-) TimerEvent: {}
+[16.441178] (-) TimerEvent: {}
+[16.443558] (my_robot_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[16.450896] (my_robot_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[16.541440] (-) TimerEvent: {}
+[16.642355] (-) TimerEvent: {}
+[16.745537] (-) TimerEvent: {}
+[16.846452] (-) TimerEvent: {}
+[16.947324] (-) TimerEvent: {}
+[17.047926] (-) TimerEvent: {}
+[17.148675] (-) TimerEvent: {}
+[17.249297] (-) TimerEvent: {}
+[17.350427] (-) TimerEvent: {}
+[17.452797] (-) TimerEvent: {}
+[17.495754] (my_robot_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/led_state_array__type_support.cpp.o\x1b[0m\n'}
+[17.552992] (-) TimerEvent: {}
+[17.656576] (-) TimerEvent: {}
+[17.731752] (my_robot_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o\x1b[0m\n'}
+[17.756728] (-) TimerEvent: {}
+[17.857284] (-) TimerEvent: {}
+[17.959487] (-) TimerEvent: {}
+[18.066437] (-) TimerEvent: {}
+[18.167199] (-) TimerEvent: {}
+[18.272832] (-) TimerEvent: {}
+[18.376992] (-) TimerEvent: {}
+[18.438587] (my_robot_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[18.476090] (my_robot_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_state_array__type_support.c.o\x1b[0m\n'}
+[18.477122] (-) TimerEvent: {}
+[18.580271] (-) TimerEvent: {}
+[18.634683] (my_robot_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[18.680537] (-) TimerEvent: {}
+[18.782891] (-) TimerEvent: {}
+[18.883394] (-) TimerEvent: {}
+[18.984155] (-) TimerEvent: {}
+[19.079061] (my_robot_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.o\x1b[0m\n'}
+[19.086334] (-) TimerEvent: {}
+[19.130546] (my_robot_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.cpp.o\x1b[0m\n'}
+[19.186638] (-) TimerEvent: {}
+[19.288243] (-) TimerEvent: {}
+[19.388870] (-) TimerEvent: {}
+[19.470479] (my_robot_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/led_state_array__type_support.cpp.o\x1b[0m\n'}
+[19.489150] (-) TimerEvent: {}
+[19.589757] (-) TimerEvent: {}
+[19.694217] (-) TimerEvent: {}
+[19.782706] (my_robot_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o\x1b[0m\n'}
+[19.794314] (-) TimerEvent: {}
+[19.867245] (my_robot_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[19.894409] (-) TimerEvent: {}
+[19.994821] (-) TimerEvent: {}
+[20.095354] (-) TimerEvent: {}
+[20.197043] (-) TimerEvent: {}
+[20.303032] (-) TimerEvent: {}
+[20.415769] (-) TimerEvent: {}
+[20.523387] (-) TimerEvent: {}
+[20.581756] (my_robot_interfaces) StdoutLine: {'line': b'[ 50%] Built target my_robot_interfaces__rosidl_typesupport_c\n'}
+[20.590518] (my_robot_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[20.626352] (-) TimerEvent: {}
+[20.726768] (-) TimerEvent: {}
+[20.735827] (my_robot_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[20.826923] (-) TimerEvent: {}
+[20.927340] (-) TimerEvent: {}
+[21.027784] (-) TimerEvent: {}
+[21.128198] (-) TimerEvent: {}
+[21.131794] (my_robot_interfaces) StdoutLine: {'line': b'[ 53%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[21.228314] (-) TimerEvent: {}
+[21.298152] (my_robot_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_state_array__type_support.cpp.o\x1b[0m\n'}
+[21.330658] (-) TimerEvent: {}
+[21.433503] (-) TimerEvent: {}
+[21.533981] (-) TimerEvent: {}
+[21.634435] (-) TimerEvent: {}
+[21.738597] (-) TimerEvent: {}
+[21.782113] (my_robot_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[21.840360] (-) TimerEvent: {}
+[21.940767] (-) TimerEvent: {}
+[22.041380] (-) TimerEvent: {}
+[22.119605] (my_robot_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.cpp.o\x1b[0m\n'}
+[22.142006] (-) TimerEvent: {}
+[22.242563] (-) TimerEvent: {}
+[22.343434] (-) TimerEvent: {}
+[22.446501] (-) TimerEvent: {}
+[22.548970] (-) TimerEvent: {}
+[22.649468] (-) TimerEvent: {}
+[22.753973] (-) TimerEvent: {}
+[22.854432] (-) TimerEvent: {}
+[22.957194] (-) TimerEvent: {}
+[23.061339] (-) TimerEvent: {}
+[23.104081] (my_robot_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.cpp.o\x1b[0m\n'}
+[23.162326] (-) TimerEvent: {}
+[23.268305] (-) TimerEvent: {}
+[23.368805] (-) TimerEvent: {}
+[23.469428] (-) TimerEvent: {}
+[23.571675] (-) TimerEvent: {}
+[23.674700] (-) TimerEvent: {}
+[23.781416] (-) TimerEvent: {}
+[23.881849] (-) TimerEvent: {}
+[23.983820] (-) TimerEvent: {}
+[24.085544] (-) TimerEvent: {}
+[24.186305] (-) TimerEvent: {}
+[24.295100] (-) TimerEvent: {}
+[24.403744] (-) TimerEvent: {}
+[24.429822] (my_robot_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[24.465624] (my_robot_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[24.503979] (-) TimerEvent: {}
+[24.604931] (-) TimerEvent: {}
+[24.708706] (-) TimerEvent: {}
+[24.812090] (-) TimerEvent: {}
+[24.915229] (-) TimerEvent: {}
+[25.017163] (-) TimerEvent: {}
+[25.120624] (-) TimerEvent: {}
+[25.224464] (-) TimerEvent: {}
+[25.316100] (my_robot_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[25.324611] (-) TimerEvent: {}
+[25.378951] (my_robot_interfaces) StdoutLine: {'line': b'[ 64%] Built target my_robot_interfaces__rosidl_typesupport_cpp\n'}
+[25.424730] (-) TimerEvent: {}
+[25.525129] (-) TimerEvent: {}
+[25.625511] (-) TimerEvent: {}
+[25.725931] (-) TimerEvent: {}
+[25.826312] (-) TimerEvent: {}
+[25.927778] (-) TimerEvent: {}
+[26.028192] (-) TimerEvent: {}
+[26.131500] (-) TimerEvent: {}
+[26.145039] (my_robot_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[26.231677] (-) TimerEvent: {}
+[26.332114] (-) TimerEvent: {}
+[26.433170] (-) TimerEvent: {}
+[26.535437] (-) TimerEvent: {}
+[26.642977] (-) TimerEvent: {}
+[26.743887] (-) TimerEvent: {}
+[26.847442] (-) TimerEvent: {}
+[26.948310] (-) TimerEvent: {}
+[27.049251] (-) TimerEvent: {}
+[27.152776] (-) TimerEvent: {}
+[27.262366] (-) TimerEvent: {}
+[27.363342] (-) TimerEvent: {}
+[27.466383] (-) TimerEvent: {}
+[27.573391] (-) TimerEvent: {}
+[27.673911] (-) TimerEvent: {}
+[27.709759] (my_robot_interfaces) StdoutLine: {'line': b'[ 65%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[27.774871] (-) TimerEvent: {}
+[27.876389] (-) TimerEvent: {}
+[27.977081] (-) TimerEvent: {}
+[28.076750] (my_robot_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support_c.cpp.o\x1b[0m\n'}
+[28.077149] (-) TimerEvent: {}
+[28.089192] (my_robot_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_state_array__type_support_c.cpp.o\x1b[0m\n'}
+[28.113740] (my_robot_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__type_support_c.cpp.o\x1b[0m\n'}
+[28.179754] (-) TimerEvent: {}
+[28.280212] (-) TimerEvent: {}
+[28.361772] (my_robot_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[28.380412] (-) TimerEvent: {}
+[28.482562] (-) TimerEvent: {}
+[28.583634] (-) TimerEvent: {}
+[28.684148] (-) TimerEvent: {}
+[28.786877] (-) TimerEvent: {}
+[28.887438] (-) TimerEvent: {}
+[28.993633] (-) TimerEvent: {}
+[29.096383] (-) TimerEvent: {}
+[29.197676] (-) TimerEvent: {}
+[29.300135] (-) TimerEvent: {}
+[29.400580] (-) TimerEvent: {}
+[29.504567] (-) TimerEvent: {}
+[29.605058] (-) TimerEvent: {}
+[29.705421] (-) TimerEvent: {}
+[29.806144] (-) TimerEvent: {}
+[29.906892] (-) TimerEvent: {}
+[30.011375] (-) TimerEvent: {}
+[30.111949] (-) TimerEvent: {}
+[30.212349] (-) TimerEvent: {}
+[30.248412] (my_robot_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_state_array__type_support.cpp.o\x1b[0m\n'}
+[30.312871] (-) TimerEvent: {}
+[30.414166] (-) TimerEvent: {}
+[30.517241] (-) TimerEvent: {}
+[30.617864] (-) TimerEvent: {}
+[30.718310] (-) TimerEvent: {}
+[30.818771] (-) TimerEvent: {}
+[30.920633] (-) TimerEvent: {}
+[31.026756] (-) TimerEvent: {}
+[31.027372] (my_robot_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[31.129389] (-) TimerEvent: {}
+[31.219576] (my_robot_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.cpp.o\x1b[0m\n'}
+[31.229513] (-) TimerEvent: {}
+[31.288504] (my_robot_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.cpp.o\x1b[0m\n'}
+[31.331688] (-) TimerEvent: {}
+[31.432342] (-) TimerEvent: {}
+[31.533084] (-) TimerEvent: {}
+[31.638196] (-) TimerEvent: {}
+[31.739186] (-) TimerEvent: {}
+[31.839766] (-) TimerEvent: {}
+[31.940521] (-) TimerEvent: {}
+[32.041334] (-) TimerEvent: {}
+[32.144620] (-) TimerEvent: {}
+[32.245786] (-) TimerEvent: {}
+[32.346547] (-) TimerEvent: {}
+[32.447022] (-) TimerEvent: {}
+[32.547590] (-) TimerEvent: {}
+[32.649614] (-) TimerEvent: {}
+[32.750125] (-) TimerEvent: {}
+[32.851540] (-) TimerEvent: {}
+[32.951997] (-) TimerEvent: {}
+[33.054946] (-) TimerEvent: {}
+[33.159144] (-) TimerEvent: {}
+[33.263099] (-) TimerEvent: {}
+[33.367094] (-) TimerEvent: {}
+[33.383065] (my_robot_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[33.467153] (-) TimerEvent: {}
+[33.567649] (-) TimerEvent: {}
+[33.668199] (-) TimerEvent: {}
+[33.769911] (-) TimerEvent: {}
+[33.829825] (my_robot_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[33.870105] (-) TimerEvent: {}
+[33.970755] (-) TimerEvent: {}
+[34.031734] (my_robot_interfaces) StdoutLine: {'line': b'[ 81%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[34.071362] (-) TimerEvent: {}
+[34.175816] (-) TimerEvent: {}
+[34.276342] (-) TimerEvent: {}
+[34.381810] (-) TimerEvent: {}
+[34.431739] (my_robot_interfaces) StdoutLine: {'line': b'[ 81%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[34.481926] (-) TimerEvent: {}
+[34.582336] (-) TimerEvent: {}
+[34.617355] (my_robot_interfaces) StdoutLine: {'line': b'[ 81%] Built target my_robot_interfaces\n'}
+[34.683536] (-) TimerEvent: {}
+[34.765968] (my_robot_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[34.785222] (-) TimerEvent: {}
+[34.885857] (-) TimerEvent: {}
+[34.988463] (-) TimerEvent: {}
+[35.091808] (-) TimerEvent: {}
+[35.195151] (-) TimerEvent: {}
+[35.295968] (-) TimerEvent: {}
+[35.396586] (-) TimerEvent: {}
+[35.497835] (-) TimerEvent: {}
+[35.598217] (-) TimerEvent: {}
+[35.698898] (-) TimerEvent: {}
+[35.803707] (-) TimerEvent: {}
+[35.905108] (-) TimerEvent: {}
+[36.007939] (-) TimerEvent: {}
+[36.108612] (-) TimerEvent: {}
+[36.213272] (-) TimerEvent: {}
+[36.313686] (-) TimerEvent: {}
+[36.417118] (-) TimerEvent: {}
+[36.518037] (-) TimerEvent: {}
+[36.620132] (-) TimerEvent: {}
+[36.720583] (-) TimerEvent: {}
+[36.822215] (-) TimerEvent: {}
+[36.932365] (-) TimerEvent: {}
+[37.037648] (-) TimerEvent: {}
+[37.141132] (-) TimerEvent: {}
+[37.242091] (-) TimerEvent: {}
+[37.348889] (-) TimerEvent: {}
+[37.451073] (-) TimerEvent: {}
+[37.552124] (-) TimerEvent: {}
+[37.654489] (-) TimerEvent: {}
+[37.755128] (-) TimerEvent: {}
+[37.858136] (-) TimerEvent: {}
+[37.959105] (-) TimerEvent: {}
+[38.063956] (my_robot_interfaces) StdoutLine: {'line': b'[ 82%] Built target my_robot_interfaces__py\n'}
+[38.064781] (-) TimerEvent: {}
+[38.166130] (-) TimerEvent: {}
+[38.268852] (-) TimerEvent: {}
+[38.369770] (-) TimerEvent: {}
+[38.470850] (-) TimerEvent: {}
+[38.566096] (my_robot_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.c.o\x1b[0m\n'}
+[38.571690] (-) TimerEvent: {}
+[38.608696] (my_robot_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_led_state_array_s.c.o\x1b[0m\n'}
+[38.659337] (my_robot_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c.o\x1b[0m\n'}
+[38.672107] (-) TimerEvent: {}
+[38.702970] (my_robot_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.c.o\x1b[0m\n'}
+[38.773981] (-) TimerEvent: {}
+[38.874685] (-) TimerEvent: {}
+[38.975413] (-) TimerEvent: {}
+[39.076149] (-) TimerEvent: {}
+[39.177083] (-) TimerEvent: {}
+[39.280544] (-) TimerEvent: {}
+[39.381585] (-) TimerEvent: {}
+[39.482712] (-) TimerEvent: {}
+[39.584558] (-) TimerEvent: {}
+[39.687552] (-) TimerEvent: {}
+[39.787982] (-) TimerEvent: {}
+[39.888578] (-) TimerEvent: {}
+[39.922459] (my_robot_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[39.990621] (-) TimerEvent: {}
+[40.093703] (-) TimerEvent: {}
+[40.195734] (-) TimerEvent: {}
+[40.234353] (my_robot_interfaces) StdoutLine: {'line': b'[ 90%] Built target my_robot_interfaces__rosidl_generator_py\n'}
+[40.296492] (-) TimerEvent: {}
+[40.404441] (-) TimerEvent: {}
+[40.506893] (-) TimerEvent: {}
+[40.608184] (-) TimerEvent: {}
+[40.712839] (-) TimerEvent: {}
+[40.773692] (my_robot_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[40.774567] (my_robot_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[40.774858] (my_robot_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[40.815647] (-) TimerEvent: {}
+[40.916297] (-) TimerEvent: {}
+[41.016662] (-) TimerEvent: {}
+[41.117312] (-) TimerEvent: {}
+[41.219323] (-) TimerEvent: {}
+[41.319823] (-) TimerEvent: {}
+[41.420344] (-) TimerEvent: {}
+[41.522045] (-) TimerEvent: {}
+[41.622441] (-) TimerEvent: {}
+[41.725570] (my_robot_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[41.725952] (-) TimerEvent: {}
+[41.744488] (my_robot_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[41.814388] (my_robot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[41.826464] (-) TimerEvent: {}
+[41.928701] (-) TimerEvent: {}
+[42.029318] (-) TimerEvent: {}
+[42.131628] (-) TimerEvent: {}
+[42.232466] (-) TimerEvent: {}
+[42.334459] (-) TimerEvent: {}
+[42.441970] (-) TimerEvent: {}
+[42.475167] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[42.538336] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[42.538671] (-) TimerEvent: {}
+[42.549472] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces_s__rosidl_typesupport_c\n'}
+[42.639475] (-) TimerEvent: {}
+[42.649564] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[42.651536] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'install'}
+[42.711629] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/junge/ros2_ws/build/my_robot_interfaces'], 'cwd': '/home/junge/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2287-1-JUNGE_TIME27831098', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'junge', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/junge/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/junge', 'OLDPWD': '/home/junge', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2016', 'SYSTEMD_EXEC_PID': '2287', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6543', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/junge/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'junge', 'JOURNAL_STREAM': '9:18477', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'junge', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/JUNGE:@/tmp/.ICE-unix/2244,unix/JUNGE:/tmp/.ICE-unix/2244', 'INVOCATION_ID': 'e327e69a319d4c91bce24d3ac7e5c111', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.76KP62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/junge/ros2_ws/install/my_py_pkg:/home/junge/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:cea40441-8da6-4163-8a16-d983feb296d5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/junge/ros2_ws/build/my_robot_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/junge/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/junge/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/junge/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[42.739991] (-) TimerEvent: {}
+[42.788172] (my_robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[42.789917] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces\n'}
+[42.791041] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.json\n'}
+[42.794244] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStateArray.json\n'}
+[42.794999] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.json\n'}
+[42.795977] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.json\n'}
+[42.796900] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[42.798146] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[42.798337] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.h\n'}
+[42.798709] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[42.799018] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/led_state_array.h\n'}
+[42.799306] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[42.799643] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.h\n'}
+[42.800343] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__type_support.h\n'}
+[42.800943] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__type_support.c\n'}
+[42.801561] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c\n'}
+[42.802114] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__description.c\n'}
+[42.803592] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__struct.h\n'}
+[42.803758] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.c\n'}
+[42.804065] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.h\n'}
+[42.804622] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__description.c\n'}
+[42.805395] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.h\n'}
+[42.805790] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__functions.c\n'}
+[42.806388] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__functions.h\n'}
+[42.807000] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[42.807342] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/set_led.h\n'}
+[42.807860] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/compute_rectangle_area.h\n'}
+[42.808401] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[42.808722] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c\n'}
+[42.809300] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__functions.c\n'}
+[42.809969] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h\n'}
+[42.810673] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.c\n'}
+[42.811217] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__description.c\n'}
+[42.811908] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h\n'}
+[42.812491] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h\n'}
+[42.813243] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.h\n'}
+[42.813773] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c\n'}
+[42.814559] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__description.c\n'}
+[42.815347] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__functions.h\n'}
+[42.816005] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__struct.h\n'}
+[42.816768] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh\n'}
+[42.817112] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv\n'}
+[42.818928] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so\n'}
+[42.823542] (my_robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""\n'}
+[42.823990] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[42.824247] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[42.824657] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[42.824860] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[42.825057] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__rosidl_typesupport_fastrtps_c.h\n'}
+[42.825365] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h\n'}
+[42.825875] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[42.826155] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[42.826535] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h\n'}
+[42.826959] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_c.h\n'}
+[42.828995] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[42.832849] (my_robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[42.833270] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[42.833729] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[42.834104] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[42.834427] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[42.834738] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h\n'}
+[42.834948] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__type_support.c\n'}
+[42.835229] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c\n'}
+[42.835866] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__rosidl_typesupport_introspection_c.h\n'}
+[42.836447] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[42.836822] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[42.837634] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c\n'}
+[42.837949] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h\n'}
+[42.838477] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.c\n'}
+[42.839188] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_c.h\n'}
+[42.840564] (-) TimerEvent: {}
+[42.841246] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[42.845128] (my_robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[42.846951] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so\n'}
+[42.850955] (my_robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[42.852291] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[42.853805] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[42.854026] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/led_state_array.hpp\n'}
+[42.854427] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.hpp\n'}
+[42.854633] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[42.854829] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__builder.hpp\n'}
+[42.855076] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__traits.hpp\n'}
+[42.855313] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__struct.hpp\n'}
+[42.855698] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.hpp\n'}
+[42.855906] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__traits.hpp\n'}
+[42.856148] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__type_support.hpp\n'}
+[42.856727] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.hpp\n'}
+[42.857283] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__builder.hpp\n'}
+[42.857853] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[42.858414] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[42.858843] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/set_led.hpp\n'}
+[42.859213] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/compute_rectangle_area.hpp\n'}
+[42.859932] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[42.860316] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__builder.hpp\n'}
+[42.860648] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__traits.hpp\n'}
+[42.861365] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp\n'}
+[42.862160] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp\n'}
+[42.862935] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.hpp\n'}
+[42.866409] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__traits.hpp\n'}
+[42.866657] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__struct.hpp\n'}
+[42.866879] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.hpp\n'}
+[42.867076] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[42.867286] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[42.867492] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[42.867695] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[42.868068] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[42.868459] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[42.868764] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/dds_fastrtps\n'}
+[42.868964] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[42.869433] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[42.869757] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[42.869982] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/dds_fastrtps\n'}
+[42.870179] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[42.871623] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[42.876310] (my_robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[42.876727] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[42.877281] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[42.877485] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[42.877851] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp\n'}
+[42.878053] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__type_support.cpp\n'}
+[42.880968] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[42.881257] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[42.881631] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[42.881871] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[42.882156] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.cpp\n'}
+[42.882498] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp\n'}
+[42.883614] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp\n'}
+[42.883856] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp\n'}
+[42.885988] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[42.890338] (my_robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[42.891926] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so\n'}
+[42.899456] (my_robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[42.899745] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh\n'}
+[42.899965] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv\n'}
+[42.900234] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info\n'}
+[42.900532] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[42.900740] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[42.902795] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[42.903097] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[42.903299] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces\n'}
+[42.903626] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg\n'}
+[42.903833] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_led_state_array.py\n'}
+[42.904276] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_led_state_array_s.c\n'}
+[42.904488] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status_s.c\n'}
+[42.904859] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/__init__.py\n'}
+[42.905607] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status.py\n'}
+[42.906361] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[42.907326] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[42.908169] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[42.909018] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so\n'}
+[42.910708] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/__init__.py\n'}
+[42.910981] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[42.912373] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[42.913176] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv\n'}
+[42.916651] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_compute_rectangle_area.py\n'}
+[42.917049] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_set_led_s.c\n'}
+[42.917260] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_set_led.py\n'}
+[42.917484] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_compute_rectangle_area_s.c\n'}
+[42.917823] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/__init__.py\n'}
+[42.940776] (-) TimerEvent: {}
+[43.043504] (-) TimerEvent: {}
+[43.126774] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces'...\n"}
+[43.127031] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/__init__.py'...\n"}
+[43.127168] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg'...\n"}
+[43.127410] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/__init__.py'...\n"}
+[43.127628] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status.py'...\n"}
+[43.127821] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_led_state_array.py'...\n"}
+[43.128013] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv'...\n"}
+[43.128204] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/__init__.py'...\n"}
+[43.128759] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_compute_rectangle_area.py'...\n"}
+[43.129056] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_set_led.py'...\n"}
+[43.145235] (-) TimerEvent: {}
+[43.149609] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[43.154096] (my_robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[43.157666] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[43.159987] (my_robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[43.162487] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so\n'}
+[43.164947] (my_robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/junge/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[43.166559] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so\n'}
+[43.170061] (my_robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/junge/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so" to ""\n'}
+[43.170455] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl\n'}
+[43.170832] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStateArray.idl\n'}
+[43.171002] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.idl\n'}
+[43.171296] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.idl\n'}
+[43.171790] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg\n'}
+[43.172191] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStateArray.msg\n'}
+[43.172666] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.srv\n'}
+[43.172823] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.srv\n'}
+[43.173128] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces\n'}
+[43.173438] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces\n'}
+[43.173800] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh\n'}
+[43.173970] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[43.174260] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh\n'}
+[43.174500] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv\n'}
+[43.174728] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash\n'}
+[43.175108] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh\n'}
+[43.175444] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh\n'}
+[43.175897] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv\n'}
+[43.176106] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv\n'}
+[43.176947] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces\n'}
+[43.177454] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[43.177803] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[43.178098] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[43.178292] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[43.178731] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[43.178937] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[43.181453] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[43.181890] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[43.182251] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[43.182552] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[43.182821] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[43.183076] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[43.183482] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[43.183687] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[43.183892] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[43.184183] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[43.184435] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[43.184634] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[43.184900] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[43.185132] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[43.185546] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[43.185723] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[43.185968] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[43.186201] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[43.186621] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake\n'}
+[43.186776] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake\n'}
+[43.186907] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/junge/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml\n'}
+[43.198053] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[43.246112] (-) TimerEvent: {}
+[43.262429] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 0}
+[43.264596] (-) EventReactorShutdown: {}
