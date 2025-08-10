@@ -67,10 +67,6 @@ This project is licensed under the MIT License.
 
 ---
 
-*Created by Harish Jungshahi*
-
-```
-
-Want me to generate a README in another style or add specific sections?
+*Created by Harish Jung Shahi*
 ```
 
